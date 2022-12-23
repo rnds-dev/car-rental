@@ -1,0 +1,94 @@
+@import "vars.less";
+
+//main page
+
+h3 {
+  font-size: 1.6em;
+}
+
+.information {
+  padding: 0px 100px;
+  vertical-align: middle;
+  min-height: 250px;
+  font-size: 1.4rem;
+
+  h4 {
+    font-size: 1.75em;
+  }
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+}
+
+.article-text-settings() {
+  margin-bottom: 20px;
+}
+
+.article {
+  width: 500px;
+  min-height: 400px;
+  margin: 30px auto;
+  color: @white;
+
+  line-height: 1.5rem;
+  .animation();
+
+  &:hover {
+    box-shadow: 0 10px 25px rgba(72, 72, 72, 0.3);
+    transform: scale(1.01);
+  }
+
+
+
+  &-photo {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 1.75em;
+  }
+
+  &-content {
+    font-size: 1.4em;
+    padding: 20px;
+    background-color: @background2;
+
+  }
+
+  &-title {
+    .article-text-settings();
+    .animation();
+    margin-top: 10px;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  &-text {
+    .article-text-settings();
+  }
+
+  &-footer {
+    margin: 0px;
+  }
+}
+
+button {
+  margin: 0 auto;
+
+  font-size: 2em;
+  font-weight: 600;
+}

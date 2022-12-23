@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #fefffe;
+  transition: all .25s;
+}
+html {
+  height: 100%;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background: #1f2128;
+  background-repeat: no-repeat;
+}
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding: 0 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5rem;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+section,
+header {
+  margin-bottom: 100px;
+  width: 100%;
+}
+section h3,
+header h3 {
+  margin-bottom: 1rem;
+}
+header {
+  background-color: rgba(25, 27, 31, 0.5);
+  height: fit-content;
+  padding: 50px 0 1px 0;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  color: #cccccc;
+  flex-wrap: wrap;
+}
+header nav a {
+  margin: 0 2rem;
+  font-weight: 800;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+header .header-text {
+  font-size: 2rem;
+  font-style: italic;
+  line-height: 3em;
+}
+header .header-text .header-text-name {
+  font-weight: 800;
+  font-size: 6rem;
+}
+header .header-text .header-text-phone {
+  float: right;
+}
+.print {
+  background-color: transparent;
+  padding: 0;
+}
+button {
+  display: block;
+  background-color: #ffc291;
+  color: black;
+  border: none;
+  border-radius: 1.6em;
+  padding: .7em 2em;
+}
+button:hover {
+  opacity: 0.8;
+}
+input {
+  /*
+  // display: block;
+
+  background-color: @background2;
+
+  border: none;
+  border-radius: .15em;
+  outline: none;
+
+  padding: .75em;
+  margin: 1rem 0;
+
+  &:hover,
+  &:focus {
+    background-color: @background-select;
+  }
+  */
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+  padding: 1.0rem 1.6rem;
+  border-radius: 1.2rem;
+  border: none;
+  outline: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all .25s;
+}
+a:hover {
+  color: #fefffe;
+}
+form {
+  background-color: rgba(25, 27, 31, 0.5);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 1.6rem;
+  padding: 2rem;
+}
+form label {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+form label,
+form h3 {
+  font-weight: 800;
+}
+form input,
+form h3,
+form select {
+  margin-bottom: 2rem;
+  padding-left: 0;
+}
+form button {
+  background-color: #ffc291;
+  color: #000;
+}
+.search {
+  width: 100%;
+}
+.search input {
+  padding: 1.0rem 1.6rem;
+  margin-bottom: 2rem;
+  width: auto;
+  height: fit-content;
+  width: 100%;
+  margin-bottom: 0;
+}
+.search .search-filters,
+.search fieldset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.search fieldset {
+  border: none;
+  margin-left: 1rem;
+}
+.search fieldset input {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+}
+.search fieldset label {
+  padding-left: 1rem;
+  font-weight: normal;
+  vertical-align: middle;
+}
+footer {
+  background-color: rgba(25, 27, 31, 0.5);
+  height: 250px;
+}
+table {
+  border-collapse: collapse;
+  border-radius: 1.6rem;
+  background: rgba(25, 27, 31, 0.5);
+}
+table .column-one {
+  width: 10px;
+}
+table tr {
+  font-size: 1.4rem;
+  border: 0px;
+}
+table tr th,
+table tr td {
+  padding: 1.6rem;
+  font-weight: 600;
+  text-align: left;
+}
+table tr th {
+  color: #cccccc;
+}
+table tr:hover {
+  filter: brightness(75%);
+}
+h1 {
+  font-size: 3.6rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.4rem;
+  margin-top: 1.6rem;
+}
+p {
+  font-size: 1.4rem;
+}
+select {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 1.0rem 1.6rem;
+}
+option {
+  background: #1f2128;
+}
+@media print {
+  table {
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+  th,
+  td {
+    border: 1px solid gray;
+  }
+  table .update,
+  .delete {
+    display: none;
+  }
+}
+.list {
+  margin-bottom: 4rem;
+}
+.list article:hover {
+  opacity: 0.8;
+}

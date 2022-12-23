@@ -1,0 +1,67 @@
+h3 {
+  font-size: 1.6em;
+}
+.information {
+  padding: 0px 100px;
+  vertical-align: middle;
+  min-height: 250px;
+  font-size: 1.4rem;
+}
+.information h4 {
+  font-size: 1.75em;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.list-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+.article {
+  width: 500px;
+  min-height: 400px;
+  margin: 30px auto;
+  color: #fefffe;
+  line-height: 1.5rem;
+  transition: all .25s;
+}
+.article:hover {
+  box-shadow: 0 10px 25px rgba(72, 72, 72, 0.3);
+  transform: scale(1.01);
+}
+.article-photo {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.article h1 {
+  font-size: 1.75em;
+}
+.article-content {
+  font-size: 1.4em;
+  padding: 20px;
+  background-color: rgba(25, 27, 31, 0.5);
+}
+.article-title {
+  margin-bottom: 20px;
+  transition: all .25s;
+  margin-top: 10px;
+}
+.article-title:hover {
+  opacity: 0.6;
+}
+.article-text {
+  margin-bottom: 20px;
+}
+.article-footer {
+  margin: 0px;
+}
+button {
+  margin: 0 auto;
+  font-size: 2em;
+  font-weight: 600;
+}

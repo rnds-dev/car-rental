@@ -1,0 +1,57 @@
+.search {
+  border-radius: .3em;
+  display: flex;
+  padding: 2px;
+  position: relative;
+  width: auto;
+  background-color: #ffc291;
+}
+.search input {
+  width: 100%;
+}
+.search button {
+  border-radius: .3em;
+}
+.search button img {
+  width: 2.4rem;
+}
+.item {
+  font-size: 1.6rem;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  min-width: 400px;
+  min-height: 225px;
+}
+@media only screen and (max-width: 992px) {
+  .item {
+    max-width: 400px;
+  }
+}
+.item:hover {
+  background-color: rgba(25, 27, 31, 0.5);
+}
+.item img {
+  width: 400px;
+  border-radius: 0.5rem;
+}
+.item .text {
+  display: inline-block;
+  vertical-align: top;
+  margin: 1.5rem;
+}
+.item .text .name {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+.item .text .price {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+.item .text .information {
+  color: gray;
+}
+.item .select-car {
+  margin-top: 2rem;
+}
